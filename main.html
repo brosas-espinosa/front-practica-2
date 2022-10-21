@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCAKE</title>
+</head>
+<body>
+    <img src="assets\Banner_icake.png" width="864" height="432">
+    <h1>iCAKE</h1>
+    <h2>¡La mejor pastelería de la ciudad!</h2>
+    <p>En iCAKE encontrarás los mejores pasteles de la ciudad, con los mejores ingredientes y los mejores diseños. ¡No te lo pierdas!</p>
+    <p>¡Visítanos en nuestras sucursales!</p>
+    <a href="https://www.google.com/maps/@19.5684275,-98.969553,9z" target="blank">Ver mapa</a>
+    <br>
+    <table>
+        <tr>
+            <th>Direccion</th>
+            <th>Telefono</th>
+            <th>Horarios</th>
+        </tr>
+        <tr>
+            <td>Calle ficticia, Colonia inexistente, num. infinito. CDMX</td>
+            <td>55-66-33-22-11</td>
+            <td>Lunes a Viernes - 08:00 a 16:00</td>
+        </tr>
+        <tr>
+            <td>Centro comercial ficticio</td>
+            <td>52-69-47-85-00</td>
+            <td>Sabados y Domingos - 10:00 a 14:00</td>
+        </tr>
+    </table>
+
+    <!-- lista de sabores de pasteles -->
+    <h3>¡Nuestros sabores!</h3>
+    <ul>
+        <li>Chocolate</li>
+        <li>Vainilla</li>
+        <li>Fresa</li>
+        <li>Limón</li>
+        <li>Maracuyá</li>
+    </ul>
+    <h3>¡Nuestros adornos!</h3>
+    <ul>
+        <li>Chispas</li>
+        <li>Trufas</li>
+        <li>Skittles</li>
+    </ul>
+
+    <!-- lista de precios -->
+    <h3>¡Nuestros precios!</h3>
+    <ol>
+        <li>Chocolate - $50</li>
+        <li>Vainilla - $50</li>
+        <li>Fresa - $50</li>
+        <li>Limón - $50</li>
+        <li>Maracuyá - $50</li>
+        <li>Chispas - $10</li>
+        <li>Trufas - $30</li>
+        <li>Skittles - $15</li>
+    </ol>
+
+    <!-- formulario de contacto -->
+    <h3>¡Realiza tu pedido!</h3>
+    <form action="https://www.google.com/" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+        <br>
+        <label for="correo">Correo:</label>
+        <input type="email" id="correo" name="correo" placeholder="Correo">
+        <br>
+
+        <label for="telefono">Telefono:</label>
+        <input type="celular" id="telefono" name="telefono" placeholder="Telefono">
+        <br>
+        <label for="pastel">Descripcion del pastel:</label>
+        <br>
+        <textarea name="Descripcion" id="pastel" cols="30" rows="10" placeholder="Descripcion"></textarea>
+        <br>
+        <h2>Selecciona el sabor de tu pastel</h2><br>
+        <input type="checkbox" id="topping1" name="topping1" value="Cebolla">
+        <label for="topping1">Chocolate</label><br>
+        <input type="checkbox" id="topping2" name="topping2" value="Jalapeño">
+        <label for="topping2">Vainilla</label><br>
+        <input type="checkbox" id="topping3" name="topping3" value="Pepinillos">
+        <label for="topping3">Fresa</label><br>
+        <input type="checkbox" id="topping4" name="topping4" value="Pepinillos">
+        <label for="topping4">Limón</label><br>
+        <input type="checkbox" id="topping5" name="topping5" value="Pepinillos">
+        <label for="topping5">Maracuyá</label><br>
+
+        <h2>Selecciona el adorno de tu pastel</h2><br>
+        <input type="checkbox" id="topping6" name="topping6" value="Cebolla">
+        <label for="topping6">Chispas</label><br>
+        <input type="checkbox" id="topping7" name="topping7" value="Jalapeño">
+        <label for="topping7">Trufas</label><br>
+        <input type="checkbox" id="topping8" name="topping8" value="Pepinillos">
+        <label for="topping8">Skittles</label><br>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+
+</body>
+</html>
